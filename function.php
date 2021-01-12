@@ -2,9 +2,6 @@
 
 function drawMonster(int $type, int $size):void {
     ?>
-        <img src="monster-<?= $type; ?>" alt="monster" style="width: <?= $size; ?>px; height: <?= $size; ?>">
+        <img src="monster-<?= $type; ?>.jpg" alt="monster" style="width: <?= $size; ?>px">
     <?php
 }
-
-require_once('function.php');
-drawMonster(1, 500);
